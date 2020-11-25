@@ -7,9 +7,6 @@ project 1 - A Random Quote Generator
   // Check the "Project Resources" section of the project instructions
   // Reach out in your Slack community - https://treehouse-fsjs-102.slack.com/app_redirect?channel=chit-chat
 
-/*** 
- * `quotes` array 
-***/
 var quotes =[{
   quote:'Just keep swimming',
   source:'-Finding Nemo',
@@ -44,9 +41,6 @@ var quotes =[{
 }];//the array of objects has all or not, of the requirements, just to see if the printQuote function will work as intened
 
 
-/***
- * `getRandomQuote` function
-***/
 function getRandomQuote() {//the getRandomQuote function will take for the array of objects and apply it to a random number based on the legth of the array
   var randomNum = Math.floor( Math.random() * quotes.length);
   var randomQuote = quotes[randomNum]; 
