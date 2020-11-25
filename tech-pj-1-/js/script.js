@@ -13,32 +13,32 @@ project 1 - A Random Quote Generator
 var quotes =[{
   quote:'Just keep swimming',
   source:'-Finding Nemo',
-  citation:'-dory',
+  citation:'dory',
   year:'2003'
 
 },{
   quote:"Frankly, my dear, I don't give a damn",
-  source:'-Gone With the Wind',
+  source:'Gone With the Wind',
   year:'1939'
 
 },{
   quote:'You know you’re in love when you can’t fall asleep because reality is finally better than your dreams',
-  source:'- Dr. Suess'
+  source:'Dr. Suess'
   
 },{
   quote:'E.T. phone home.',
-  source:' - E.T. The Extra-Terrestrial',
+  source:'E.T. The Extra-Terrestrial',
   citation:'E.T.'
 
 },{
   quote:'Why so serious?',
-  source:' - The Dark Knight',
-  citation:'-the joker',
+  source:'The Dark Knight',
+  citation:'the joker',
   year:'2008'
 
 },{
   quote:'May the Force be with you.',
-  source:'-Star Wars',
+  source:'Star Wars',
   citation:'han solo',
   year:'1977'
 }];//the array of objects has all or not, of the requirements, just to see if the printQuote function will work as intened
